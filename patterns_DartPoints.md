@@ -1,18 +1,17 @@
-
-> mean(DartPoints$Length) 
+ mean(DartPoints$Length) 
 [1] 49.33077
-> mean(DartPoints[, 5])
+mean(DartPoints[, 5])
 [1] 49.33077
-> mean(DartPoints[,"Length"])
+mean(DartPoints[,"Length"])
 [1] 49.33077
-> summary(DartPoints$Length)
+summary(DartPoints$Length)
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
   30.60   40.85   47.10   49.33   55.80  109.50 
-> summary(DartPoints$Length)
+summary(DartPoints$Length)
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
   30.60   40.85   47.10   49.33   55.80  109.50 
-> options(digits=3)
-> numSummary(DartPoints[, 5:11])
+ options(digits=3)
+ numSummary(DartPoints[, 5:11])
            mean    sd   IQR   0%   25%  50%   75%  100%  n NA
 Length    49.33 12.74 14.95 30.6 40.85 47.1 55.80 109.5 91  0
 Width     22.08  5.16  6.60 14.5 18.55 21.1 25.15  49.3 91  0
