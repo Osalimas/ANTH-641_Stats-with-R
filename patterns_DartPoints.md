@@ -1,7 +1,11 @@
  mean(DartPoints$Length) 
+ 
 [1] 49.33077
+
 mean(DartPoints[, 5])
+
 [1] 49.33077
+
 mean(DartPoints[,"Length"])
 [1] 49.33077
 summary(DartPoints$Length)
